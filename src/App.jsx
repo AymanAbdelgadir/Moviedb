@@ -1,12 +1,13 @@
 import React from 'react';
+import HomePage from "./pages/HomePage.jsx";
+import LoadingSpinner from "./components/LoadingSpinner.jsx";
 
 const App = () => {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
-        </div>
+       <>
+          <HomePage/>
+           <LoadingSpinner/>
+       </>
     );
 };
 
